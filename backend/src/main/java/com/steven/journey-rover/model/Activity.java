@@ -1,12 +1,23 @@
 package com.example.demo.model;
+import java.time.LocalDateTime;
 
 public class Activity {
 
     private Long id;
+
     private String title;
+    private String location_name;
+
     private String description;
+    
+    private Long trips;
+    private String[] tags;
+
     private boolean completed;
 
+    private LocalDateTime start_time;
+    private LocalDateTime end_time;
+    
     public Activity() {
     }
 
